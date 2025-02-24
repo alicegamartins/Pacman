@@ -1,6 +1,7 @@
 import javax.swing.JFrame;
 
 public class App {
+  
     public static void main(String[] args) throws Exception {
         int rowCount = 21;
         int columnCount = 19;
@@ -10,6 +11,7 @@ public class App {
 
         JFrame frame = new JFrame("Pac Man");
         
+       
         frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
@@ -19,7 +21,7 @@ public class App {
         frame.add(pacmanGame);
         frame.pack();
         pacmanGame.requestFocus();
-        frame.setVisible(true);
+       frame.setVisible(true);
 
-    }
+   }
 }
