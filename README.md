@@ -1,7 +1,7 @@
 # Pac-Man
 
 Este é um projeto de um jogo estilo Pac-Man, desenvolvido em Java. O jogo segue a mecânica clássica, onde o jogador controla o Pac-Man para coletar pontos enquanto evita os fantasma
-
+---
 ## Funcionalidades
 
 Controle do Pac-Man: Movimente o personagem usando as setas do teclado.
